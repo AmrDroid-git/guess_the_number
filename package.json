@@ -1,0 +1,14 @@
+{
+  "name": "jeu",
+  "version": "1.0.0",
+  "description": "ce programme est un jeu de guessing",
+  "main": "code.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Slama Amr",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}

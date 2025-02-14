@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Number</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="conteneur">
+        <h1 class="titre">Jeu du chiffre caché</h1>
+        <div class="beforeGame">
+            <div class="containerSelection">
+                <select class="form-select selecting_difficulty" aria-label="Default select example">
+                    <option selected>Choisir une difficulté</option>
+                    <option value="easy">easy</option>
+                    <option value="medium">medium</option>
+                    <option value="hard">hard</option>
+                </select>
+            </div>
+
+
+            <div class="starting">
+                <button type="button" class="btn btn-primary btn-lg startButton">Start Game</button>
+            </div>
+        </div>
+
+        <!-- afer starting the game -->
+        <!-- description du jeu -->
+        <div class="inGame">
+            <div class="description">
+                <h2>Intervalle du jeu va apparaitre lorsque vous cliquez start</h2>
+            </div>
+            <!-- input field -->
+            <div class="input-group flex-nowrap inputField">
+                <input type="number" class="form-control inputted" placeholder="donner un nombre" aria-label="Username"
+                    aria-describedby="addon-wrapping">
+            </div>
+            <!-- submit button -->
+            <input class="btn btn-primary submittion" type="submit" value="Submit">
+
+            <!-- resultat de votre choix -->
+            <div class="resultat">
+                <h2>--Ecrire un nombre--</h2>
+            </div>
+            <!-- tentatives restantes -->
+            <div class="tentatives">
+                <h2>Nombre des tentatives restantes ?</h2>
+            </div>
+            <img src="yes.gif" class="giffy won" alt="A funny GIF">
+            <img src="no.gif" class="giffy lost" alt="A funny GIF">
+            <input class="btn btn-danger restart" type="reset" value="Reset">
+        </div>
+    </div>
+    <footer class="footer">
+        © Amr Slama GL2/2
+    </footer>
+</body>
+
+<script src="code.js"></script>
+
+</html>

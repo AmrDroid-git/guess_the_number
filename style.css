@@ -1,0 +1,141 @@
+body {
+    background-image: url('background.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    margin: 0;
+}
+
+.conteneur {
+    position: absolute;
+}
+
+.titre {
+    font-family: "Grechen Fuemen", serif;
+    font-weight: 1000;
+    font-style: normal;
+    color: yellowgreen;
+    text-align: center;
+    font-size: 70px;
+}
+
+.containerSelection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.selecting_difficulty {
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(197, 133, 48);
+}
+
+.starting {
+    display: flex;
+    justify-content: center;
+}
+
+.description {
+    background-color: aliceblue;
+    width: 400px;
+    height: 50px;
+    margin: 40px auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description h2 {
+    font-size: 20px;
+}
+
+.inputField {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.inputField input {
+    width: 100%;
+    text-align: center;
+}
+
+.submittion {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 10px auto;
+}
+
+.resultat {
+    background-color: aliceblue;
+    width: 400px;
+    height: 70px;
+    margin: 40px auto;
+    text-align: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resultat h2 {
+    font-size: 25px;
+    color: red;
+}
+
+.tentatives {
+    background-color: rgb(145, 173, 198);
+    width: 400px;
+    height: 40px;
+    margin: 40px auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tentatives h2 {
+    font-size: 25px;
+}
+
+
+.restart {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    margin: 10px auto;
+}
+
+.inGame {
+    display: none;
+}
+
+.giffy {
+    background-color: aliceblue;
+    width: 300px;
+    height: 300px;
+    margin: 40px auto;
+    display: none;
+}
+
+
+.footer {
+    text-align: center;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 16px;
+}
